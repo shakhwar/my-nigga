@@ -3,17 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link ref=""
     <title>Document</title>
 </head>
 <body>
-    <h1>main bitcoin</h1>
-
-    <h3>coin mained</h3>
-    <button id="1">Generate</button>
-
-    
-
-
+<div>
+    <h1>BitCoin Miner</h1>
+    <h4>Coins Mined :</h4>
+    <span id="generate_bitcoin">0</span>
+    <br>
+    <button onclick="click()" type="button"> generate </button>
+</div>
+    <hr>
+<div>
+        <h4>Available Funds : <span id="Available_funds">0.0</span>$</h4><!--variable=(inventory*price) with the 12%-->
+        <h4>inventory :</h4>
+        <span id="inventory">0.0</span>
+        <!--number of Available coins right now -->
+        <h3>Marketing : </h3>
+        <p>price : <span id="price">0.0</span>$</p>
+        <button onclick="raise()" type="button">raise</button>
+        <button onclick="lower()" type="button" >lower</button>
+        <h4>public demand:<span id="demand">0.0</span>%</h4>
+    </div>
+    <hr>
+    <div></div>
 </body>
+<script src="app.js"></script>
 </html>
