@@ -1,6 +1,6 @@
 function click(){
-var coin;
-coin++;
+    var coin;
+    coin++;
 }
 function raise(){}
 function lower(){}
